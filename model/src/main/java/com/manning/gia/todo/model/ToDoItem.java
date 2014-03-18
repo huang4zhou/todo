@@ -58,6 +58,6 @@ public class ToDoItem implements Comparable<ToDoItem> {
 
     @Override
     public String toString() {
-        return id + ": " + name + " [completed: " + completed + "]";
+        return id + ": " + name + " [completed: " + completed + "]" + "Yeah!";
     }
 }
