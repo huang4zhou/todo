@@ -6,6 +6,7 @@ sonarRunner {
     sonarProperties {
         property 'sonar.projectName', 'todo'
         property 'sonar.projectDescription', 'A task management application'
+        property 'sonar.scm.url', 'scm:git:git://github.com/huang4zhou/todo.git'
     }
 }
 
